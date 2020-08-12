@@ -42,10 +42,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 @implementation GameViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
+- (void)loadAnimation{
+
     // Load the scene
     NSError *error = nil;
     NSURL *modelFileURL = [NSURL fileURLWithPath:self.modelFilePath];

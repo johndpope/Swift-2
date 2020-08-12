@@ -35,8 +35,7 @@
 
 #import <Foundation/Foundation.h>
 #import <SceneKit/SceneKit.h>
-#import "SCNAssimpAnimSettings.h"
-
+#import <AssimpKit/SCNAssimpAnimSettings.h>
 /**
  A scenekit SCNNode category which imitates the SCNAnimatable protocol.
  */

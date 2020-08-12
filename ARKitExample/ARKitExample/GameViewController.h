@@ -40,5 +40,5 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 @property(readwrite, nonatomic) NSString* modelFilePath;
 @property(readwrite, nonatomic) NSString* animFilePath;
-
+- (void)loadAnimation;
 @end

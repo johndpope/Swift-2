@@ -29,7 +29,6 @@
 		837AA2D424E385BC006BB02F /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837AA2D224E385BC006BB02F /* GameViewController.m */; };
 		837AA2F824E38602006BB02F /* SCNScene+AssimpImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 837AA2E824E38602006BB02F /* SCNScene+AssimpImport.m */; };
 		837AA2F924E38602006BB02F /* AssimpImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 837AA2EB24E38602006BB02F /* AssimpImageCache.m */; };
-		837AA2FB24E38602006BB02F /* SCNAssimpAnimSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 837AA2EE24E38602006BB02F /* SCNAssimpAnimSettings.m */; };
 		837AA2FD24E38602006BB02F /* SCNNode+AssimpImport.m in Sources */ = {isa = PBXBuildFile; fileRef = 837AA2F124E38602006BB02F /* SCNNode+AssimpImport.m */; };
 /* End PBXBuildFile section */
 
@@ -72,11 +71,9 @@
 		837AA2D224E385BC006BB02F /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		837AA2D324E385BC006BB02F /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		837AA2DC24E38602006BB02F /* AssimpImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssimpImageCache.h; sourceTree = "<group>"; };
-		837AA2DD24E38602006BB02F /* SCNAssimpAnimSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNAssimpAnimSettings.h; sourceTree = "<group>"; };
 		837AA2E724E38602006BB02F /* SCNNode+AssimpImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCNNode+AssimpImport.h"; sourceTree = "<group>"; };
 		837AA2E824E38602006BB02F /* SCNScene+AssimpImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCNScene+AssimpImport.m"; sourceTree = "<group>"; };
 		837AA2EB24E38602006BB02F /* AssimpImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssimpImageCache.m; sourceTree = "<group>"; };
-		837AA2EE24E38602006BB02F /* SCNAssimpAnimSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNAssimpAnimSettings.m; sourceTree = "<group>"; };
 		837AA2F024E38602006BB02F /* SCNScene+AssimpImport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCNScene+AssimpImport.h"; sourceTree = "<group>"; };
 		837AA2F124E38602006BB02F /* SCNNode+AssimpImport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCNNode+AssimpImport.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,8 +165,6 @@
 			children = (
 				837AA2DC24E38602006BB02F /* AssimpImageCache.h */,
 				837AA2EB24E38602006BB02F /* AssimpImageCache.m */,
-				837AA2DD24E38602006BB02F /* SCNAssimpAnimSettings.h */,
-				837AA2EE24E38602006BB02F /* SCNAssimpAnimSettings.m */,
 				837AA2E724E38602006BB02F /* SCNNode+AssimpImport.h */,
 				837AA2F124E38602006BB02F /* SCNNode+AssimpImport.m */,
 				837AA2F024E38602006BB02F /* SCNScene+AssimpImport.h */,
@@ -278,7 +273,6 @@
 				837AA2D424E385BC006BB02F /* GameViewController.m in Sources */,
 				77953DC4212B6C7B00610177 /* ServerManager.swift in Sources */,
 				77999E4021238908003948ED /* ViewController.swift in Sources */,
-				837AA2FB24E38602006BB02F /* SCNAssimpAnimSettings.m in Sources */,
 				837AA2FD24E38602006BB02F /* SCNNode+AssimpImport.m in Sources */,
 				77999E3C21238908003948ED /* AppDelegate.swift in Sources */,
 				77953DC0212B695400610177 /* Constans.swift in Sources */,
