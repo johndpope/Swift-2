@@ -69,7 +69,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         {
             SCNAssimpAnimSettings *settings =
                 [[SCNAssimpAnimSettings alloc] init];
-            settings.repeatCount = 3;
+            settings.repeatCount = 300;
 
             NSString *key = [animationKeys objectAtIndex:0];
             SCNAnimationEventBlock eventBlock =
@@ -87,7 +87,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                   // [scene.rootNode resumeAnimationSceneForKey:key];
                 };
             SCNAnimationEvent *animEvent =
-                [SCNAnimationEvent animationEventWithKeyTime:0.1f
+            [SCNAnimationEvent animationEventWithKeyTime:1.0f
                                                        block:eventBlock];
             NSArray *animEvents =
                 [[NSArray alloc] initWithObjects:animEvent, nil];
