@@ -10,7 +10,7 @@ import UIKit
 import SceneKit
 import ARKit
 
-class ViewController: UIViewController, ARSCNViewDelegate {
+class ViewController: GameViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     
@@ -23,7 +23,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
-        let assimp = SCNAssimpScene.assimpSceneNamed("art.scnassets/Jackolantern/jackolantern.FBX", postProcessFlags: [])!
+        let assimp = SCNAssimpScene.assimpSceneNamed("ely.fbx", postProcessFlags: [])!
         
         let scnView:SCNView = view as! SCNView
         

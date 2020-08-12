@@ -16,7 +16,8 @@
 #import <AssimpKit/PostProcessingFlags.h>
 #import <AssimpKit/SCNAssimpAnimation.h>
 #import <AssimpKit/SCNAssimpAnimSettings.h>
-#import <AssimpKit/SCNAssimpScene.h>
+//#import <AssimpKit/SCNAssimpScene.h>
 #import <AssimpKit/SCNNode+AssimpImport.h>
 #import <AssimpKit/SCNScene+AssimpImport.h>
+#import "GameViewController.h"
 //#import <AssimpKit/SCNTextureInfo.h>
