@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		77953DB5212AB61000610177 /* AssimpKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77953DB4212AB61000610177 /* AssimpKit.framework */; };
 		77953DB6212AB61000610177 /* AssimpKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77953DB4212AB61000610177 /* AssimpKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		77953DB9212AB68200610177 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77953DB8212AB68200610177 /* AWSS3.framework */; };
-		77953DBA212AB68200610177 /* AWSS3.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77953DB8212AB68200610177 /* AWSS3.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		77953DBC212AB6A900610177 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77953DBB212AB6A900610177 /* AWSCore.framework */; };
-		77953DBD212AB6A900610177 /* AWSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 77953DBB212AB6A900610177 /* AWSCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		77953DC0212B695400610177 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77953DBF212B695400610177 /* Constans.swift */; };
 		77953DC4212B6C7B00610177 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77953DC3212B6C7B00610177 /* ServerManager.swift */; };
 		77999E3C21238908003948ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77999E3B21238908003948ED /* AppDelegate.swift */; };
@@ -21,6 +17,7 @@
 		77999E4321238908003948ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77999E4121238908003948ED /* Main.storyboard */; };
 		77999E4521238909003948ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77999E4421238909003948ED /* Assets.xcassets */; };
 		77999E4821238909003948ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77999E4621238909003948ED /* LaunchScreen.storyboard */; };
+		8374938224FD35B0007E4842 /* tetrahedron.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 8374938124FD35B0007E4842 /* tetrahedron.fbx */; };
 		83793E5524E3A5C9005059E6 /* gen-3-0-samples_scan-036.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 83793E5424E3A5C9005059E6 /* gen-3-0-samples_scan-036.fbx */; };
 		837AA2CD24E3855D006BB02F /* ely_specular.png in Resources */ = {isa = PBXBuildFile; fileRef = 837AA2C824E3855D006BB02F /* ely_specular.png */; };
 		837AA2CE24E3855D006BB02F /* ely.fbx in Resources */ = {isa = PBXBuildFile; fileRef = 837AA2C924E3855D006BB02F /* ely.fbx */; };
@@ -41,9 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				77953DBA212AB68200610177 /* AWSS3.framework in Embed Frameworks */,
 				77953DB6212AB61000610177 /* AssimpKit.framework in Embed Frameworks */,
-				77953DBD212AB6A900610177 /* AWSCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,8 +47,6 @@
 
 /* Begin PBXFileReference section */
 		77953DB4212AB61000610177 /* AssimpKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssimpKit.framework; path = Carthage/Build/iOS/AssimpKit.framework; sourceTree = "<group>"; };
-		77953DB8212AB68200610177 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = Carthage/Build/iOS/AWSS3.framework; sourceTree = "<group>"; };
-		77953DBB212AB6A900610177 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = Carthage/Build/iOS/AWSCore.framework; sourceTree = "<group>"; };
 		77953DBF212B695400610177 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
 		77953DC3212B6C7B00610177 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		77999E3821238908003948ED /* ARKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +58,7 @@
 		77999E4721238909003948ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77999E4921238909003948ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77999E5421238CD5003948ED /* ARKitExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARKitExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		8374938124FD35B0007E4842 /* tetrahedron.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = tetrahedron.fbx; sourceTree = "<group>"; };
 		83793E5424E3A5C9005059E6 /* gen-3-0-samples_scan-036.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "gen-3-0-samples_scan-036.fbx"; sourceTree = "<group>"; };
 		837AA2C824E3855D006BB02F /* ely_specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ely_specular.png; sourceTree = "<group>"; };
 		837AA2C924E3855D006BB02F /* ely.fbx */ = {isa = PBXFileReference; lastKnownFileType = file; path = ely.fbx; sourceTree = "<group>"; };
@@ -87,9 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77953DB9212AB68200610177 /* AWSS3.framework in Frameworks */,
 				77953DB5212AB61000610177 /* AssimpKit.framework in Frameworks */,
-				77953DBC212AB6A900610177 /* AWSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,8 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				837AA2D824E38602006BB02F /* Model */,
-				77953DBB212AB6A900610177 /* AWSCore.framework */,
-				77953DB8212AB68200610177 /* AWSS3.framework */,
 				77953DB4212AB61000610177 /* AssimpKit.framework */,
 				77999E3A21238908003948ED /* ARKitExample */,
 				77999E3921238908003948ED /* Products */,
@@ -135,6 +125,7 @@
 		77999E3A21238908003948ED /* ARKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				8374938124FD35B0007E4842 /* tetrahedron.fbx */,
 				83793E5424E3A5C9005059E6 /* gen-3-0-samples_scan-036.fbx */,
 				837AA30024E3A0D6006BB02F /* Salsa.fbx */,
 				837AA2D324E385BC006BB02F /* GameViewController.h */,
@@ -249,6 +240,7 @@
 				837AA2CE24E3855D006BB02F /* ely.fbx in Resources */,
 				837AA2D024E3855D006BB02F /* ely_diffuse_high.png in Resources */,
 				837AA30124E3A0D6006BB02F /* Salsa.fbx in Resources */,
+				8374938224FD35B0007E4842 /* tetrahedron.fbx in Resources */,
 				837AA2CD24E3855D006BB02F /* ely_specular.png in Resources */,
 				77999E4321238908003948ED /* Main.storyboard in Resources */,
 			);

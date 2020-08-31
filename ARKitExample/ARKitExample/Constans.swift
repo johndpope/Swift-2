@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import AWSCore
+//import AWSCore
 
 // Warning: To run this sample correctly, you must set the following constants.
 // I didn't want show my bucket
